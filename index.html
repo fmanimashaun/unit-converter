@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+    <!--Page container section-->
+    <div class="container">
+
+        <!--Page main section-->
+        <main>
+            <div class="converter-card">
+                <div class="converter-card__header">
+
+                    <h2 class="converter-card__title">Metric/Imperial Unit Conversion</h2>
+
+                    <form class="converter-card__form">
+
+                        <label for="input-value" class='converter-card__form-label'>
+                            <input type="text" id="input-value" name="unit" class="converter-card__form-input"
+                                value="0" maxlength="4" size="4" required>
+                        </label>
+
+                        <input class="converter-card__form-submit" type="submit" value="Convert">
+                    </form>
+
+                </div>
+
+
+                <div class="converter-card__body">
+                    <div class="converter-card__converted-item">
+                        <h3 class="converter-card__converted-item-title">Length (Meter/Feet)</h3>
+                        <p class="converter-card__converted-item-value" id="length">0 meter = 0 foot | 0 foot = 0 meter
+                        </p>
+                    </div>
+                    <div class="converter-card__converted-item">
+                        <h3 class="converter-card__converted-item-title">Volume (Liters/Gallons)</h3>
+                        <p class="converter-card__converted-item-value" id="volume">0 liter = 0 gallon | 0 gallon = 0
+                            liter</p>
+                    </div>
+                    <div class="converter-card__converted-item">
+                        <h3 class="converter-card__converted-item-title">Mass (Kilograms/Pounds)</h3>
+                        <p class="converter-card__converted-item-value" id="mass">0 kilo = 0 pound | 0 pound = 0 kilo
+                        </p>
+                    </div>
+                </div>
+
+
+
+
+        </main>
+        <!--End of Page main section-->
+
+        <!--Page footer section-->
+        <footer>
+            <p class="foot__note">
+                created by <a href="https://github.com/fmanimashaun" target="_blank"><strong>fmanimashaun</a></strong>
+            </p>
+        </footer>
+        <!--End of Page footer section-->
+
+    </div>
+    <!--End of Page container section-->
+
+    <script src="js/index.js"></script>
+</body>
+
+</html>
