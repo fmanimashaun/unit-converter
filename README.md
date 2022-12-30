@@ -50,7 +50,7 @@ The project was built to showcase my skills in HTML, CSS, and JavaScript and how
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> [Live Demo Link](https://fmanimashaun.github.io/password-generator/)
+> [Live Demo Link](https://fmanimashaun.github.io/unit-converter/)
 
 ### Desktop Version <a name="desktop-version"></a>
 <p align="center">
