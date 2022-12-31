@@ -176,7 +176,18 @@ remove the input spinners
     -moz-appearance: textfield;
 }
 
+.converter-card__form-error {
+    padding: 0.5em 1em;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #f00;
+    background-color: #fff;
+}
 
+.converter-card__form-error.hidden {
+    display: none;
+}
 
 /* Styling the footer */
 .foot__note {
