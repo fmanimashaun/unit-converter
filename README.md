@@ -32,7 +32,9 @@
 The project was built to showcase my skills in HTML, CSS, and JavaScript and how to build an interactive webpage. This is a simple unit converter web app. The development is based on the given [Figma](https://www.figma.com/file/cqtGul0V8RFXY4vTcIv1Kc/Unit-Conversion) design. This is part of the Scrimba Frontend Developer Career Path solo projects.
 
 ### Project Objectives <a name="project-objectives"></a>
-- Develop the app layout based on the given Figma design.
+- Develop the app layout based on the given [Figma](https://www.figma.com/file/cqtGul0V8RFXY4vTcIv1Kc/Unit-Conversion) design.
+- Display converted values based on the user's input.
+- Display error messages when the user enters invalid values.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -46,7 +48,7 @@ The project was built to showcase my skills in HTML, CSS, and JavaScript and how
 - [Figma](https://www.figma.com/)
 
 ### Key Features <a name="key-features"></a>
-
+- Display error messages when the user enters invalid values.
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
@@ -54,12 +56,14 @@ The project was built to showcase my skills in HTML, CSS, and JavaScript and how
 
 ### Desktop Version <a name="desktop-version"></a>
 <p align="center">
-  <img width="500" src="screenshots/desktop.png">
+  <img width="500" src="screenshots/desktop1.png">
+  <img width="500" src="screenshots/desktop2.png">
 </P>
 
 ### Mobile Version <a name="mobile-version"></a>
 <p align="center">
-  <img width="300" src="screenshots/mobile.png">
+  <img width="300" src="screenshots/mobile1.png">
+  <img width="300" src="screenshots/mobile2.png">
 </P>
 
 ## 💻 Getting Started <a name="getting-started"></a>
