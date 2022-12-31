@@ -54,12 +54,14 @@ The project was built to showcase my skills in HTML, CSS, and JavaScript and how
 
 ### Desktop Version <a name="desktop-version"></a>
 <p align="center">
-  <img width="500" src="screenshots/desktop.png">
+  <img width="500" src="screenshots/desktop1.png">
+  <img width="500" src="screenshots/desktop2.png">
 </P>
 
 ### Mobile Version <a name="mobile-version"></a>
 <p align="center">
-  <img width="300" src="screenshots/mobile.png">
+  <img width="300" src="screenshots/mobile1.png">
+  <img width="300" src="screenshots/mobile2.png">
 </P>
 
 ## 💻 Getting Started <a name="getting-started"></a>
