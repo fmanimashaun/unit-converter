@@ -1,6 +1,7 @@
 // Get DOM elements
 const convertBtn = document.querySelector('.converter-card__form-submit');
 const inputValue = document.querySelector('#input-value');
+const inputLabel = document.querySelector('.converter-card__form-label');
 const errorMsg = document.querySelector('.converter-card__form-error');
 const length = document.querySelector('#length');
 const volume = document.querySelector('#volume');
@@ -96,6 +97,7 @@ convertBtn.addEventListener('click', (e) => {
   // check if input value is a number
   if (!isNumber(inputValue.value)) {
     errorMsg.classList.remove('hidden');
+    inputLabel.classList.add('error');
     return;
   } else {
     // convert input value to number
@@ -115,6 +117,7 @@ convertBtn.addEventListener('click', (e) => {
 inputValue.addEventListener('input', () => {
   if (!errorMsg.classList.contains('hidden')) {
     errorMsg.classList.add('hidden');
+    inputLabel.classList.remove('error');
   }
 });
 

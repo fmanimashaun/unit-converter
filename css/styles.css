@@ -105,6 +105,10 @@ body {
     border-radius: 5px;
 }
 
+.converter-card__form-label.error {
+    border: 2px solid #f00;
+}
+
 .converter-card__form-input {
     width: 100%;
     background-color: transparent;
@@ -188,6 +192,7 @@ remove the input spinners
 .converter-card__form-error.hidden {
     display: none;
 }
+
 
 /* Styling the footer */
 .foot__note {
